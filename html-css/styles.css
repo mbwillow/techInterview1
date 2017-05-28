@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.main_content{
+  margin:auto 0 ;
+  padding: 20%;
+  border: 3px solid grey;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.menu{
+  float: left;
+}
+
+.banner{
+  margin: 0px;
+  padding: 0px;
+  height: 600px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:auto;
+}
+
+.banner h1 {
+   font-family: 'Ravi Prakash', cursive;
+   font-size: 3em;
+   flex: auto;
+}
+
+.side_bar {
+  float:left;
+  z-index: 1;
+}
+
+footer {
+
+}
