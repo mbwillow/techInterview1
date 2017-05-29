@@ -42,61 +42,66 @@
 
   -- Bonus: use flex-box for your columns and layout.
 
--->
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
-<-- modernizr -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" integrity="sha256-ffw+9zwShMev88XNrDgS0hLIuJkDfXhgyLogod77mn8=" crossorigin="anonymous">
-</script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha256-gvEnj2axkqIj4wbYhPjbWV7zttgpzBVEgHub9AAZQD4=" crossorigin="anonymous" />-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+  <!-- modernizr -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js" integrity="sha256-ffw+9zwShMev88XNrDgS0hLIuJkDfXhgyLogod77mn8=" crossorigin="anonymous">
+  </script>
+
 
 </head>
 <body>
-  <header>
-    <div class="header_inner">
-      <div class="logo">
-        <a href="#">
-          <img src="logoplaceholder.png" alt="your brand logo png">
-        </a>
+
+  <div class="wrapper">
+    <header>
+      <div class="header_inner">
+        <nav class="menu">
+          <ul class="logo">
+            <li><a href="#"class="logo_design">Logo</a></li>
+          </ul>
+          <ul>
+            <li><a href="#splash">Splash</a></li>
+            <li><a href="#content">Content</a></li>
+            <li><a href="#footer">Footer</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav class="menu">
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="#footer">Copyright</a>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="banner">
-      <h1 class="banner_title">This Will Be The Title</h1>
-      <img src="background.jpg" alt="image of clouds and mountains scenery">
-    </section>
-    <section class="content" id="about">
-      <div class="content_1">
-        <h2>Content 1 Sub-Title</h2>
-        <p>Bacon ipsum dolor amet strip steak shankle voluptate, ball tip short loin t-bone drumstick culpa veniam bacon officia ham exercitation biltong. Aute et ullamco reprehenderit ball tip picanha turducken. Brisket biltong laborum short ribs velit commodo, beef fatback porchetta boudin id swine aute elit. Sed occaecat bresaola short loin pork loin landjaeger ground round non beef commodo laborum qui tempor bacon. Ham ham hock pork chop, brisket shoulder jerky adipisicing.</p>
-      </div>
-      <div class="content_2">
-        <h2>Content 2 Sub-Title</h2>
-        <p>Bacon ipsum dolor amet strip steak shankle voluptate, ball tip short loin t-bone drumstick culpa veniam bacon officia ham exercitation biltong. Aute et ullamco reprehenderit ball tip picanha turducken. Brisket biltong laborum short ribs velit commodo, beef fatback porchetta boudin id swine aute elit. Sed occaecat bresaola short loin pork loin landjaeger ground round non beef commodo laborum qui tempor bacon. Ham ham hock pork chop, brisket shoulder jerky adipisicing.</p>
-      </div>
-      <div class="content_3">
-        <h2>Content 3 Sub-Title</h2>
-        <p>Bacon ipsum dolor amet strip steak shankle voluptate, ball tip short loin t-bone drumstick culpa veniam bacon officia ham exercitation biltong. Aute et ullamco reprehenderit ball tip picanha turducken. Brisket biltong laborum short ribs velit commodo, beef fatback porchetta boudin id swine aute elit. Sed occaecat bresaola short loin pork loin landjaeger ground round non beef commodo laborum qui tempor bacon. Ham ham hock pork chop, brisket shoulder jerky adipisicing.</p>
-      </div>
-    </section>
-    <aside class="aside" id="contact">
-      <h2>Aside List Sub-Title</h2>
-      <ul class="aside_list">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
-      </ul>
-    </aside>
-  </main>
-  <footer class="footer">
-   <small>&copy; Copyright 2017 Morgan codelove.examp</small>
-  </footer>
+    </header>
+    <main>
+      <section class="banner" id="splash">
+        <h1 class="banner_title">This Will Be The Title</h1>
+        <img src="background.jpg" alt="image of clouds and mountains scenery">
+      </section>
+      <section class="content" id="content">
+        <div class="content_1">
+          <h2>Content 1 Sub-Title</h2>
+          <p>Bacon ipsum dolor amet strip steak shankle voluptate, ball tip short loin t-bone drumstick culpa veniam bacon officia ham exercitation biltong. Aute et ullamco reprehenderit ball tip picanha turducken. Brisket biltong laborum short ribs velit commodo, beef fatback porchetta boudin id swine aute elit. Sed occaecat bresaola short loin pork loin landjaeger ground round non beef commodo laborum qui tempor bacon. Ham ham hock pork chop, brisket shoulder jerky adipisicing.</p>
+        </div>
+        <div class="content_2">
+          <h2>Content 2 Sub-Title</h2>
+          <p>Bacon ipsum dolor amet strip steak shankle voluptate, ball tip short loin t-bone drumstick culpa veniam bacon officia ham exercitation biltong. Aute et ullamco reprehenderit ball tip picanha turducken. Brisket biltong laborum short ribs velit commodo, beef fatback porchetta boudin id swine aute elit. Sed occaecat bresaola short loin pork loin landjaeger ground round non beef commodo laborum qui tempor bacon. Ham ham hock pork chop, brisket shoulder jerky adipisicing.</p>
+        </div>
+        <div class="content_3">
+          <h2>Content 3 Sub-Title</h2>
+          <p>Bacon ipsum dolor amet strip steak shankle voluptate, ball tip short loin t-bone drumstick culpa veniam bacon officia ham exercitation biltong. Aute et ullamco reprehenderit ball tip picanha turducken. Brisket biltong laborum short ribs velit commodo, beef fatback porchetta boudin id swine aute elit. Sed occaecat bresaola short loin pork loin landjaeger ground round non beef commodo laborum qui tempor bacon. Ham ham hock pork chop, brisket shoulder jerky adipisicing.</p>
+        </div>
+      </section>
+      <aside class="aside">
+        <h2>Aside List Sub-Title</h2>
+        <ul class="aside_list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+        </ul>
+      </aside>
+    </main>
+    <footer class="footer" id="footer">
+      <small>&copy; Copyright 2017 Morgan codelove.examp</small>
+    </footer>
+  </div>
 </body>
 </html>
