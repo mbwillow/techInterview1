@@ -35,6 +35,15 @@ nav a:hover {
   background-color: #555;
 }
 
+.logo {
+  max-width: 100px;
+  margin: auto 0;
+}
+
+.logo a {
+  text-indent: -10000px;
+}
+
 .banner {
   display: box;
   display: flex;
@@ -69,26 +78,49 @@ a.logo_design {
 }
 
 /* Main Content base styles */
+.content {
+  margin: 20px;
+  -webkit-box-shadow: 9px 10px 0px -6px rgba(0,0,0,0.41);
+  -moz-box-shadow: 9px 10px 0px -6px rgba(0,0,0,0.41);
+  box-shadow: 9px 10px 0px -6px rgba(0,0,0,0.41);
+}
+
+.content div {
+  background: #fff;
+  margin-bottom: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
 
 
 /* flex styles */
 
-.logo {
-  max-width: 100px;
-  margin: auto 0;
-}
-.logo a {
-  text-indent: -10000px;
-}
+
 
 nav ul.logo{
   flex: 1 1 0;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+article {
+  flex: 0 1 30%;
+}
 
 
 @media screen and (min-width: 768px) {
+
   nav ul {
     display: flex;
   }
